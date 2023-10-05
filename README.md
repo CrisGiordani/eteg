@@ -3,11 +3,13 @@
 ## Para rodar o projeto:
 
 - 1 Clonar o repositório
-- 2 Acessar a pasta backend
-  --- Criar o .env (cp .env.example .env)
-  --- Rodar 'npm install && npm run seed && npm run start:dev"
-- 3 Acessar a pastar frontend e rodar 'npm install && npm run dev"
-- 4 Rodar "docker-compose up' para subir o ambiente do postgres
+- 2 Rodar "docker-compose up' para subir o ambiente do postgres
+- 3 Acessar a pasta backend
+- 4 Rodar 'npm run start'
+  --- Obs.: esse script vai copiar o .env, instalar as dependências, criar as tabelas no banco, fazer o seed com os dados iniciais e iniciar o servidor da API.
+- 5 Acessar a pastar frontend e rodar 'npm install && npm run dev"
+
+Pronto, só acessar o endereço localhost disponibilizado para o frontend e usar o sistema.
 
 Extra: Collection do Insomnia na raiz (Insomnia.json)
 
