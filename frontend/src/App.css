@@ -1,0 +1,85 @@
+#root {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 8em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+* {
+  width: 100%;
+}
+
+.form-container {
+  background-color: #0a355bb8;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: -50px;
+}
+
+.form-group input[type="text"], input[type="email"]{
+  height: 20px;
+  margin: 20px auto;
+  outline: none;
+  text-align: center;
+  padding: 10px;
+  background-color: #09355bb8;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+select {
+  height: 50px;
+  width: 60%;
+  outline: none;
+  padding: 10px;
+  background-color: #09355bb8;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom:40px;
+}
+
+.submit-button { 
+  width: 40%;
+}
+.submit-button:hover {
+  background-color: #0056b3;
+  color: #FFF;
+  width: 40%;
+}
+
+.error-message {
+  color: #d2a1a1;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.msg-message {
+  color: #a3d782;
+  font-weight: bold;
+  margin-top: 5px;
+}

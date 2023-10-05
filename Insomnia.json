@@ -1,0 +1,141 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-10-04T20:45:17.972Z",
+  "__export_source": "insomnia.desktop.app:v2023.4.0",
+  "resources": [
+    {
+      "_id": "req_fb80a4dc7b964b76b9241c3999bfb47e",
+      "parentId": "fld_b60978f2f5b04883a24d892f0f860865",
+      "modified": 1696442262135,
+      "created": 1696439739058,
+      "url": "localhost:3333/colors",
+      "name": "fetch",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1696439739058,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_b60978f2f5b04883a24d892f0f860865",
+      "parentId": "wrk_f53747eee1114d64b3c6196405e1d915",
+      "modified": 1696442237713,
+      "created": 1696442227249,
+      "name": "Colors",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1696442227249,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_f53747eee1114d64b3c6196405e1d915",
+      "parentId": null,
+      "modified": 1696381598754,
+      "created": 1696381598754,
+      "name": "Eteg",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_1d1e865d39894f3a8bdbbcaa77d72bc4",
+      "parentId": "fld_4628f322ca3040af966c497ab03bcce7",
+      "modified": 1696442255521,
+      "created": 1696381601111,
+      "url": "localhost:3333/users",
+      "name": "create",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Cristian Giordani\",\n\t\"email\": \"cristiangiordsani@gmail.com\",\n\t\"cpf\": \"00436390035\",\n\t\"color\": \"Vermelho\",\n\t\"obs\": \"Teste...\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1696381601036,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_4628f322ca3040af966c497ab03bcce7",
+      "parentId": "wrk_f53747eee1114d64b3c6196405e1d915",
+      "modified": 1696442208802,
+      "created": 1696442179952,
+      "name": "Users",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1696381601086,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_5cfe78a519a74cb49bf43e37e41363a5",
+      "parentId": "fld_4628f322ca3040af966c497ab03bcce7",
+      "modified": 1696452123088,
+      "created": 1696452103668,
+      "url": "localhost:3333/users",
+      "name": "list all",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1696381600986,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_e337ea5ea31a11dba1b6f529b8232e3dd80f9346",
+      "parentId": "wrk_f53747eee1114d64b3c6196405e1d915",
+      "modified": 1696381598757,
+      "created": 1696381598757,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1696381598757,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_e337ea5ea31a11dba1b6f529b8232e3dd80f9346",
+      "parentId": "wrk_f53747eee1114d64b3c6196405e1d915",
+      "modified": 1696381598758,
+      "created": 1696381598758,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
