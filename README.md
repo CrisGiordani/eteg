@@ -3,7 +3,9 @@
 ## Para rodar o projeto:
 
 - 1 Clonar o repositório
-- 2 Acessar a pasta backend e rodar 'npm install && npm run start:dev"
+- 2 Acessar a pasta backend
+  --- Criar o .env (cp .env.example .env)
+  --- Rodar 'npm install && npm run seed && npm run start:dev"
 - 3 Acessar a pastar frontend e rodar 'npm install && npm run dev"
 - 4 Rodar "docker-compose up' para subir o ambiente do postgres
 
